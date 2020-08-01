@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/filter.js",
+              "src/app/filter2.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,7 +94,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+             
+            ]
           }
         },
         "lint": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "project2"
+    }
+  },
+  "defaultProject": "project2",
+  "cli": {
+    "analytics": "9d929f62-4cbd-46bf-9814-47431c2c8fd5"
+  }
 }
